@@ -2,11 +2,11 @@ const express = require('express')
 const app = new express()
 const fs = require('fs')
 
-let cache = fs.readFileSync(__dirname + '/index.html')
+let index = fs.readFileSync(__dirname + '/index.html')
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/html')
-  res.send(cache)
+  res.send(index)
 })
 
 app.set('port', process.env.PORT || 3000)
