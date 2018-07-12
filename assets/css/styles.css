@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 401;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
@@ -314,7 +314,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-toggle__item i::after {
-  top: 50%;
   left: 4px;
   width: 16px;
   height: 16px;
