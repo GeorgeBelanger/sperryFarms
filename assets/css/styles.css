@@ -1099,6 +1099,11 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 600px;
 }
 
+.u-promo-block--mheight-800 {
+  min-height: 800px;
+  
+}
+
 @media (max-width: 1199px) {
   .u-promo-block {
     background-attachment: fixed;
