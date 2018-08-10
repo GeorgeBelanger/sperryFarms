@@ -1002,9 +1002,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1100px){
   .chicken-and-kids-pic{
-    background-image: url(../img/chickens/DSC093731.JPG);
-    background-size: 100%;
-    width: 100%;
+    background-image: url(../img/chickens/DSC093731.00_00_00_00.Still001.bmp);
   }
 }
 
