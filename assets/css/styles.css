@@ -980,8 +980,38 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/* Start Georges CSS edits */
+
+@media (min-width: 450px){
+  .portrait-carousel{
+    display: none;
+  }
+}
+
+
+@media (max-width: 450px){
+  .wide-carousel{
+    display: none;
+  }
+}
+
+.chicken-and-kids-pic {
+  background-image: url(../img/chickens/DJI_0335.00_01_13_06.Still006.00_00_00_00.Still001.bmp);
+}
+
+@media (max-width: 1100px){
+  .chicken-and-kids-pic{
+    background-image: url(../img/chickens/DSC093731.JPG);
+  }
+}
+
+/* End George's CSS Edits */
+
+
+
 .navbar-bg-onscroll.fixed-top {
-  background-color: #672e8d;
+  background-color: #1b1e24;
   transition: all .3s ease-out;
 }
 
