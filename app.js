@@ -2,7 +2,7 @@ const express = require('express')
 const app = new express()
 const fs = require('fs')
 
-let index = fs.readFileSync(__dirname + '/index.html')
+let index = fs.readFileSync(__dirname + '/home-page.html')
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/html')
