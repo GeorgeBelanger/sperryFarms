@@ -119,17 +119,23 @@
               <span class="fas fa-mobile u-icon__inner text-white"></span>
             </span>
             <h3 class="h5">Phone Number (House)</h3>
-            <p class="mb-0">1-207-809-7398</p>
+            <a href="tel:(207)809-7398">
+              <p class="mb-0"><u>207-809-7398</u></p>
+            </a>
           </div>
           <!-- End Icon Block Column -->
 
           <!-- Icon Block Column -->
           <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
-            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
-              <span class="fas fa-envelope-open u-icon__inner text-white"></span>
-            </span>
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" target="_top">
+              <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+                <span class="fas fa-envelope-open u-icon__inner text-white"></span>
+              </span>
+            </a>
             <h3 class="h5">Email (Dylan & Parker)</h3>
-            <p class="mb-0">SperrysFarm@gmail.com</p>
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" target="_top">
+              <p class="mb-0"><u>SperrysFarm@gmail.com</u></p>
+            </a>
           </div>
           <!-- End Icon Block Column -->
         </div>
@@ -144,26 +150,26 @@
             <p class="h5"></p>
           </header>
 
-          <form class="text-center w-md-75 mx-auto" action="#">
+          <form class="text-center w-md-75 mx-auto" action="contact.php" method="post">
             <div class="row">
               <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Name" type="text">
+                <input class="form-control form-control-lg" placeholder="Name" name="name" type="text">
               </div>
 
               <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Email" type="email">
+                <input class="form-control form-control-lg" placeholder="Email" name="email" type="email">
               </div>
 
               <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Subject" type="text">
+                <input class="form-control form-control-lg" placeholder="Subject" name="subject" type="text">
               </div>
 
               <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Phone" type="tel">
+                <input class="form-control form-control-lg" placeholder="Phone" name="phone" type="tel">
               </div>
 
               <div class="col-lg-12 form-group mb-6">
-                <textarea class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+                <textarea class="form-control form-control-lg" rows="7" placeholder="Message" name="message"></textarea>
               </div>
             </div>
 
