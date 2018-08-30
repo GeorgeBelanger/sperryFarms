@@ -27,6 +27,7 @@
 
     <!-- Theme Styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script src="assets/vendors/jquery.min.js"></script>
 
     <style type="text/css">
     </style>
@@ -37,47 +38,12 @@
     <!-- Header -->
     <header>
       <!-- Navbar -->
-      <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home-page.html">
-            <div style="width: 100px;">
-              Sperry Farms
-            </div>
-          </a>
-
-          <button class="navbar-toggler" type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarTogglerDemo"
-
-                  aria-controls="navbarTogglerDemo"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo">
-
-
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item mr-4 mb-2 mb-lg-0">
-                <a class="nav-link active" href="home-page.html">Home</a>
-              </li>
-              <li class="nav-item mr-4 mb-2 mb-lg-0">
-                <a class="nav-link" href="pictures.html">Pictures</a>
-              </li>
-              <li class="nav-item mr-4 mb-2 mb-lg-0">
-                <a class="nav-link" href="about-us.html">About Us</a>
-              </li>
-              <li class="nav-item mr-4 mb-2 mb-lg-0">
-                <a class="nav-link" href="meet-the-chickens.html">Meet The Chickens</a>
-              </li>
-              <li class="nav-item mr-4 mb-2 mb-lg-0">
-                <a class="nav-link" href="contacts.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div id="nav"></div>
+        <script>
+          $(function(){
+            $('#nav').load('navbar.html')
+          })
+        </script>
       <!-- End Navbar -->
 
       <!-- Promo Block -->
@@ -87,8 +53,8 @@
           <div class="row justify-content-center">
             <div class="col-12">
               <div class="text-center">
-                <h1 class="display-sm-4 display-lg-3">Got a Question?</h1>
-                <p class="h6 text-uppercase u-letter-spacing-sm mb-0">It is good to meet you</p>
+                <h1 class="display-sm-4 display-lg-3">Thanks for your support</h1>
+                
               </div>
             </div>
           </div>
@@ -100,98 +66,69 @@
     <!-- End Header -->
 
     <main role="main">
-      <!-- Icon Block -->
-      <section class="container-fluid">
-        <div class="row text-center u-icon-block">
-          <!-- Icon Block Column -->
-          <div class="col-lg-4 u-icon-block__col">
-            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
-              <span class="fas fa-map u-icon__inner text-white"></span>
-            </span>
-            <h3 class="h5">Address</h3>
-            <p class="mb-0">57 Evans Ridge Road, Windham, ME, 04062</p>
-          </div>
-          <!-- End Icon Block Column -->
 
-          <!-- Icon Block Column -->
-          <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
-            <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
-              <span class="fas fa-mobile u-icon__inner text-white"></span>
-            </span>
-            <h3 class="h5">Phone Number (House)</h3>
-            <a href="tel:(207)809-7398">
-              <p class="mb-0"><u>207-809-7398</u></p>
-            </a>
-          </div>
-          <!-- End Icon Block Column -->
+      <!-- Pricing Section -->
 
-          <!-- Icon Block Column -->
-          <div class="col-lg-4 u-icon-block__col u-icon-block__col--left-brd">
-            <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" target="_top">
-              <span class="u-icon u-icon-primary u-icon--size--xl rounded-circle mb-4">
+      <div class="row text-center justify-content-center u-icon-block pb-2"> 
+
+        <div class="col-xl-4 col-lg-4 col-11 pt-2"  style="transform: translate(0, -100px);background-color: white; border: solid;border-width: 1px; padding-bottom: 25px">
+          <span class="badge badge-primary col-12">
+            <div> Most popular! </div>
+          </span>
+          <article class= "ml-2" style="text-align: left;">
+            <h3>Dozen Eggs <br/>
+              $<b>3</b> <ins>Delivered</ins>
+            </h3>
+            <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. Delivery only available on Evans Ridge & Adalynn.</p></i></h6>
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" class="btn-primary btn btn--pill">
+              <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
-              </span>
+              </span>Order Now
             </a>
-            <h3 class="h5">Email (Dylan & Parker)</h3>
-            <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" target="_top">
-              <p class="mb-0"><u>SperrysFarm@gmail.com</u></p>
+          </article>
+        </div>
+
+        <div class="blank col-xl-1 col-lg-1 col-0"></div>
+
+        <div class="col-xl-4 col-lg-4 col-11 pt-2" style="transform: translate(0, -102px);background-color: white; border: solid;border-width: 1px; padding-bottom: 25px">
+          <br/>
+          <article class= "ml-2" style="text-align: left;">
+            <h3>8 oz Maple Syrup <br/>
+              $<b>5</b> <ins>Delivered</ins>
+            </h3>
+            <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. Delivery only available on Evans Ridge & Adalynn.</p></i></h6>
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-primary btn btn--pill">
+              <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
+                <span class="fas fa-envelope-open u-icon__inner text-white"></span>
+              </span>Order Now
             </a>
-          </div>
-          <!-- End Icon Block Column -->
+          </article>
         </div>
-      </section>
-      <!-- End Icon Block -->
 
-      <!-- Contact Form -->
-      <section class="u-content-space">
-        <div class="container">
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">Tell us about yourself</h2>
-            <p class="h5"></p>
-          </header>
+      </div>
 
-          <form class="text-center w-md-75 mx-auto" action="contact.php" method="post">
-            <div class="row">
-              <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Name" name="name" type="text">
-              </div>
 
-              <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Email" name="email" type="email">
-              </div>
+      <!-- End Pricing Section -->
 
-              <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Subject" name="subject" type="text">
-              </div>
-
-              <div class="col-lg-6 form-group mb-4">
-                <input class="form-control form-control-lg" placeholder="Phone" name="phone" type="tel">
-              </div>
-
-              <div class="col-lg-12 form-group mb-6">
-                <textarea class="form-control form-control-lg" rows="7" placeholder="Message" name="message"></textarea>
-              </div>
-            </div>
-
-            <div class="text-center">
-              <button class="btn btn-lg btn-primary py-3 px-4" type="submit">Send Your Message</button>
-            </div>
-          </form>
-        </div>
-      </section>
-      <!-- End Contact Form -->
     </main>
 
     <!-- Footer -->
     <footer class="bg-dark py-5">
-      <div class="container">
         <div class="row">
-          <div class="col-md-8 text-center text-md-left mb-3 mb-md-0">
-            <small class="text-white">&copy; 2018 <a class="text-white" href="https://georgebelanger.com">Sperry Farms</a>. All Rights Reserved.
-            <div style="justify-content: center;"><a href="tel:(207)809-7398">
-            <u><b>207-809-7398</u>
-            </a><a href="mailto:SperrysFarm@gmail.com?Subject=Inquiry" target="_top">
-              <u>SperrysFarm@gmail.com</u>
+          <div class="col-12 col-md-5 col-lg-5 col-xl-5 text-center  mb-3 mb-md-0">
+            <small class="text-white">&copy; 2018 <a class="text-white" href="https://georgebelanger.com">Sperry Farms</a>. All Rights Reserved.</small>
+          </div>
+          <div class="col-12 col-md-2 col-lg-2 col-xl-2 text-center mb-2"><a href="tel:(207)809-7398">
+              <b style="color:lightblue;">
+              <span class="fas fa-mobile"></span> 
+            <u style="color:lightblue;">
+            207-809-7398</u>
+            </a>
+          </div>
+          <div class="col-12 col-md-5 col-lg-5 col-xl-5 text-center">
+          <a style="color:lightblue;" href="mailto:SperrysFarm@gmail.com?Subject=Inquiry" target="_top">
+                <span class="fas fa-envelope-open"></span> 
+              <u> SperrysFarm@gmail.com</u>
             </a>
           </b>
           </div>
@@ -199,7 +136,6 @@
           </div>
 
         </div>
-      </div>
     </footer>
     <!-- End Footer -->
 
@@ -207,7 +143,6 @@
 
     <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
     <!-- Global Vendor -->
-    <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/vendors/jquery.migrate.min.js"></script>
     <script src="assets/vendors/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
