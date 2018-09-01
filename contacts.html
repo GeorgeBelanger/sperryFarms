@@ -30,6 +30,31 @@
     <script src="assets/vendors/jquery.min.js"></script>
 
     <style type="text/css">
+
+    .corner-ribbon{
+  width: 200px;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  overflow: hidden;
+}
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
     </style>
   </head>
   <!-- End Head -->
@@ -81,6 +106,7 @@
             </h3>
             <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. Delivery only available on Evans Ridge & Adalynn.</p></i></h6>
             <a href="mailto:SperrysFarm@gmail.com?Subject=Eggs%20Please" class="btn-primary btn btn--pill">
+              
               <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
               </span>Order Now
@@ -97,10 +123,11 @@
               $<b>5</b> <ins>Delivered</ins>
             </h3>
             <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. Delivery only available on Evans Ridge & Adalynn.</p></i></h6>
-            <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-primary btn btn--pill">
-              <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-dark btn btn--pill">
+              <div class="corner-ribbon top-right sticky bg-dark">Sold Out</div>
+              <span class="u-icon u-icon-dark u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
-              </span>Order Now
+              </span>Sold out for the season
             </a>
           </article>
         </div>
