@@ -37,24 +37,34 @@
   top: 25px;
   left: -50px;
   text-align: center;
+  overflow: hidden;
   line-height: 50px;
   letter-spacing: 1px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  overflow: hidden;
 }
 
 .corner-ribbon.sticky{
-  position: fixed;
+  position: absolute;
 }
 
 .corner-ribbon.top-right{
-  top: 25px;
-  right: -50px;
+  top: 20px;
+  right: -60px;
   left: auto;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+.ribbon-wrapper {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
     </style>
   </head>
   <!-- End Head -->
@@ -63,12 +73,14 @@
     <!-- Header -->
     <header>
       <!-- Navbar -->
-      <div id="nav"></div>
+      <div id="nav">
+        
         <script>
           $(function(){
             $('#nav').load('navbar.html')
           })
         </script>
+      </div>
       <!-- End Navbar -->
 
       <!-- Promo Block -->
@@ -94,9 +106,9 @@
 
       <!-- Pricing Section -->
 
-      <div class="row text-center justify-content-center u-icon-block pb-2"> 
+      <div class="row text-center justify-content-center u-icon-block"> 
 
-        <div class="col-xl-4 col-lg-4 col-11 pt-2"  style="transform: translate(0, -100px);background-color: white; border: solid;border-width: 1px; padding-bottom: 25px">
+        <div class="col-xl-4 col-lg-4 col-11 pt-2"  style="transform: translate(0, -100px);background-color: white; border: solid;border-width: .5px; padding-bottom: 25px;">
           <span class="badge badge-primary col-12">
             <div> Most popular! </div>
           </span>
@@ -116,15 +128,18 @@
 
         <div class="blank col-xl-1 col-lg-1 col-0"></div>
 
-        <div class="col-xl-4 col-lg-4 col-11 pt-2" style="transform: translate(0, -102px);background-color: white; border: solid;border-width: 1px; padding-bottom: 25px">
+        <div class="col-xl-4 col-lg-4 col-11 pt-2" style="transform: translate(0, -102px);background-color: white; border: solid;border-width: .5px; padding-bottom: 25px;">
           <br/>
           <article class= "ml-2" style="text-align: left;">
+                <div class="ribbon-wrapper">
+              <div class="corner-ribbon top-right sticky bg-dark text-white">Sold Out</div>
+  </div>
             <h3>8 oz Maple Syrup <br/>
               $<b>5</b> <ins>Delivered</ins>
             </h3>
             <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. Delivery only available on Evans Ridge & Adalynn.</p></i></h6>
             <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-dark btn btn--pill">
-              <div class="corner-ribbon top-right sticky bg-dark">Sold Out</div>
+              
               <span class="u-icon u-icon-dark u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
               </span>Sold out for the season
