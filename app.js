@@ -9,10 +9,10 @@ app.get('/', (req, res) => {
   res.send(index)
 })
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 3001)
 
 app.listen(app.get('port'), function () {
-  console.log('Listening on Port 3000...')
+  console.log('Listening on Port 3001...')
 })
 
 app.use(express.static(__dirname, +'/assets'))
