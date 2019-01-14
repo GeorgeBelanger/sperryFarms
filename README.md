@@ -1,101 +1,48 @@
-# [Stream - UI Kit](https://htmlstream.com/preview/stream-ui-kit/) :raised_hands:
+# Sperry Farms
+  
+I was commissioned to make this website with the scope being:
 
-[![Stream UI Kit - A beautiful Open Source Bootstrap 4 UI Kit](http://htmlstream.com/product-hunt/updated/promo.jpg)](https://htmlstream.com/preview/stream-ui-kit/)
+  1. Allow customers to see egg & maple syrup prices and order through email
+  2. Have pictures of the farm
+  3. Have an about us page
+  
+<img src="https://cdn.svgporn.com/logos/html-5.svg" 
+alt="HTML Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/css-3.svg" 
+alt="CSS Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" 
+alt="Node Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/bootstrap.svg" 
+alt="Bootstrap Icon" width="75" height="75"/>
 
-Stream UI Kit is beautiful Open Source Bootstrap 4 UI Kit under MIT license. The UI Kit comes with 5 beautiful complete pages and includes over 20 reusable and customizable UI Blocks. It’s lightweight and only ~17kb when minified.
+## Table of Contents:  
 
-### What’s Included
-
-The download package includes .zip folder, please unzip the compressed folder and you’ll find the following directories and files including all raw source files:
-
-```
-stream-ui-kit-v1.0/
-├── assets/
-│   ├── css/
-│   │   ├── styles.css
-│   │   ├── min.styles.css
-│   ├── img/
-│   │   ├── ...
-│   ├── img-temp/
-│   │   ├── ...
-│   ├── include/
-│   │   ├── scss/
-│   │   │   ├── ...
-│   ├── js/
-│   │   ├── global.js
-│   │   ├── ...
-│   ├── vendor/
-│   │   ├── bootstrap/
-│   │   ├── chartist-js/
-│   │   ├── ...
-├── README.md
-├── package.json
-├── gulpfile.js
-├── index.html
-├── home-page.html
-├── services.html
-├── about-us.html
-├── about-me.html
-├── contacts.html
-├── starter-template.html
-```
+[Chicken Page](https://github.com/GeorgeBelanger/sperryFarms#chicken-page)<br/>
+[Typing Text](https://github.com/GeorgeBelanger/sperryFarms#typing-text)<br/>
+[Parallax Scroll](https://github.com/GeorgeBelanger/sperryFarms#parallax-scroll)<br/>
+[Carousel](https://github.com/GeorgeBelanger/sperryFarms#carousel) <br/>
+[Counting Numbers](https://github.com/GeorgeBelanger/sperryFarms#counting-numbers)<br/>
+[Picture page](https://github.com/GeorgeBelanger/sperryFarms#picture-page)<br/>
+[AWS Server](https://github.com/GeorgeBelanger/sperryFarms#AWS-server)<br/>
+[General Notes](https://github.com/GeorgeBelanger/sperryFarms#general-notes)<br/>
 
 
-### Complete with Examples
+## Chicken Page
 
-We have created 5 beautiful complete pages with over 20 reusable and customizable UI Blocks to quickly start with the Stream UI Kit.
-
-- [UI Kit](https://htmlstream.com/preview/stream-ui-kit/index.html)
-- [Home](https://htmlstream.com/preview/stream-ui-kit/home-page.html)
-- [Services](https://htmlstream.com/preview/stream-ui-kit/services.html)
-- [About Us](https://htmlstream.com/preview/stream-ui-kit/about-us.html)
-- [About Me - Profile](https://htmlstream.com/preview/stream-ui-kit/about-me.html)
-- [Contacts](https://htmlstream.com/preview/stream-ui-kit/contacts.html)
-- Starter Template
+![](Chicken Page.gif)
 
 
-### Online Documentation
+## Typing Text
 
-Stream UI Kit comes with detailed documentation to quick start. In addition, the documentation includes credits for images, icons and libraries. Here is a link to [online documentation](https://htmlstream.com/preview/stream-ui-kit/docs.html)
+## Parallax Scroll
 
+## Carousel
 
-### Built by Htmlstream
+## Counting Numbers
 
-Stream Ui Kit is built by the team that has customers in the background such us Stanford University, The University of Maryland, University of Victoria and many more Governments, Corporate Agencies.
+## Picture Page
 
-Our soical network profiles:
+## AWS Server
 
-- [Twitter](https://twitter.com/htmlstream)
-- [Facebook](https://www.facebook.com/)
-- [Dribbble](https://dribbble.com/htmlstream)
-- [Instagram](https://www.instagram.com/htmlstream/)
+## General Notes
 
 
-### Credits
 
-First, let us take this opportunity to thank all the creative minds for their great products and hard work. All used third party libraries are located in `assets/vendor/..` and image sources in `assets/img-temp/..`
-
-Name | URL
------------- | -------------
-Bootstrap | https://getbootstrap.com
-jQuery | http://jquery.com
-Font Awesome | https://fontawesome.com
-Slick Carousel | http://kenwheeler.github.io/slick
-jQuery Parallax | https://ianlunn.co.uk/plugins/jquery-parallax
-Typed.js | https://mattboldt.com/demos/typed-js
-Counter-Up | https://github.com/bfintal/Counter-Up
-Magnific Popup | http://dimsemenov.com/plugins/magnific-popup
-Shuffle | https://vestride.github.io/Shuffle
-
-
-#### Fonts & Images
-
-- Google Fonts: http://www.google.com/fonts
-- Unsplash Beautiful free photos: http://unsplash.com
-
-
-### Licensed under MIT
-
-Stream UI Kit is Open Source project and licensed under MIT for better Web.
-
-![MIT License](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=for-the-badge)
+  
