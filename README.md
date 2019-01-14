@@ -9,7 +9,7 @@ I was commissioned to make this website with the scope being:
 <img src="https://cdn.svgporn.com/logos/html-5.svg" 
 alt="HTML Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/css-3.svg" 
 alt="CSS Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" 
-alt="Node Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/bootstrap.svg" 
+alt="Node Icon" width="75" height="75"/>   <img src="https://cdn.svgporn.com/logos/bootstrap.svg" 
 alt="Bootstrap Icon" width="75" height="75"/>
 
 ## Table of Contents:  
@@ -26,7 +26,8 @@ alt="Bootstrap Icon" width="75" height="75"/>
 
 ## Chicken Page
 
-![](Chicken Page.gif)
+![Chicken Gif](https://github.com/GeorgeBelanger/sperryFarms/Chicken Page.gif)
+![Chick Gif](https://github.com/GeorgeBelanger/sperryFarms/blob/master/Chicken.gif)
 
 
 ## Typing Text
