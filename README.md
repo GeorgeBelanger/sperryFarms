@@ -1,6 +1,6 @@
 # Sperry Farms
  
-**Website can be seen live at [sperryfarms.org](sperryfarms.org)**
+**Website can be seen live at [http://www.sperryfarms.org/](http://www.sperryfarms.org/)**
 
 I was commissioned to make this website with the scope being:
 
