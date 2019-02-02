@@ -1,16 +1,20 @@
 # Sperry Farms
-  
+ 
+**Website can be seen live at [http://www.sperryfarms.org/](http://www.sperryfarms.org/)**
+
 I was commissioned to make this website with the scope being:
 
-  1. Allow customers to see egg & maple syrup prices and order through email
-  2. Have pictures of the farm
-  3. Have an about us page
-  
+
+>  1. Allow customers to see egg & maple syrup prices and order through email
+>  2. Have pictures of the farm
+>  3. Have an about us page
+
+
 <img src="https://cdn.svgporn.com/logos/html-5.svg" 
 alt="HTML Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/css-3.svg" 
 alt="CSS Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" 
-alt="Node Icon" width="75" height="75"/>   <img src="https://cdn.svgporn.com/logos/bootstrap.svg" 
-alt="Bootstrap Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/jquery.svg" 
+alt="Node Icon" width="75" height="75"/><img src="https://cdn.svgporn.com/logos/bootstrap.svg" 
+alt="Bootstrap Icon" width="75" height="75"/>      <img src="https://cdn.svgporn.com/logos/jquery.svg" 
 alt="jQuery Icon" width="75" height="75"/>
 
 ## Table of Contents:  
