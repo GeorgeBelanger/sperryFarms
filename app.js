@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send(index)
 })
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.SPERRY_PORT || 3000)
 
 app.listen(app.get('port'), function () {
   console.log('Listening on Port 3000...')
