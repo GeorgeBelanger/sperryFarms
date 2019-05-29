@@ -169,3 +169,8 @@ Masonry is called each time an img is loaded which calculates the position the i
     7. Install nginx to forward from port 80(default broswer port) to port 3000 where the app is live
     
   Next steps would be to host this site on AWS Lambda and figure out SSR!
+
+## Netlify
+
+  - Decided to host on netlify 
+    - Had to change home-page.html to index.html for it to serve the build
