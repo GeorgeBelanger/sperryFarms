@@ -37,6 +37,15 @@
     -webkit-transform: rotate(-45deg);
   }
 
+  .d-none{
+    display:none;
+  }
+
+  .emailNowWorkingModal{
+    border: 2px solid red;
+    margin-top:15px;
+  }
+
   .corner-ribbon.sticky {
     position: absolute;
   }
@@ -116,7 +125,7 @@
               $<b>4 </b><ins>Delivered</ins>
           </h3>
           <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. We will respond to your order request within 24 hours.</p></i></h6>
-            <a href="mailto:SperrysFarm@gmail.com?Subject=Dozen%20Eggs%20Please" class="btn-primary btn btn--pill">
+            <a href="mailto:SperrysFarm@gmail.com?Subject=Dozen%20Eggs%20Please" class="btn-primary btn btn--pill" onClick="showAlternativeEmailOption('12EggsEmailModal')">
               <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
               </span>Order Now
@@ -127,6 +136,9 @@
             </span>Sold out for the season
           </a> -->
         </article>
+        <div id='12EggsEmailModal' class='d-none emailNowWorkingModal'>
+          Email window not opening? Send an email to <a>SperrysFarm@gmail.com</a> with your order.
+        </div>
       </div>
       <!-- End Eggs -->
       <!-- Start Spacer -->
@@ -143,15 +155,18 @@
             <div class="corner-ribbon top-right sticky bg-warning text-dark">Feb - May</div>
           </div> -->
           <h3>18 Eggs <br/>
-              $<b>5.50</b> <ins>Delivered</ins>
+              $<b>6</b> <ins>Delivered</ins>
           </h3>
           <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. We will respond to your order request within 24 hours.</p></i></h6>
-            <a href="mailto:SperrysFarm@gmail.com?Subject=18%20Eggs%20Please" class="btn-primary btn btn--pill">
+            <a href="mailto:SperrysFarm@gmail.com?Subject=18%20Eggs%20Please" class="btn-primary btn btn--pill" onClick="showAlternativeEmailOption('18EggsEmailModal')">
               <span class="u-icon u-icon-primary u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
               </span>Order Now
           </a>
         </article>
+        <div id='18EggsEmailModal' class='d-none emailNowWorkingModal'>
+          Email window not opening? Send an email to <a>SperrysFarm@gmail.com</a> with your order.
+        </div>
       </div>
       <!-- End 18 eggs -->
       <!-- Start Spacer -->
@@ -171,12 +186,15 @@
               $<b>8</b> <ins>Delivered</ins>
           </h3>
           <h6><i><p class="font-weight-light" style="color: gray;">First come, first serve. We will respond to your order request within 24 hours.</p></i></h6>
-          <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-warning btn btn--pill">
+          <a href="mailto:SperrysFarm@gmail.com?Subject=Maple%20Syrup%20Please" class="btn-warning btn btn--pill" onClick="showAlternativeEmailOption('mapleSyrupEmailModal')">
               <span class="u-icon u-icon-warning u-icon--size--xs rounded-circle mb-1">
                 <span class="fas fa-envelope-open u-icon__inner text-white"></span>
               </span>Reserve some now
             </a>
         </article>
+        <div id='mapleSyrupEmailModal' class='d-none emailNowWorkingModal'>
+          Email window not opening? Send an email to <a>SperrysFarm@gmail.com</a> with your order.
+        </div>
       </div>
       <!-- End Maple Syrup -->
     </div>
@@ -219,6 +237,15 @@
   <!-- Theme Components and Settings -->
   <script src="assets/js/vendors/parallax.js"></script>
   <!-- END JAVASCRIPTS -->
+  <script>
+    var timesClicked = 0;
+    function showAlternativeEmailOption (modal) {
+      if (timesClicked > 0){
+        document.getElementById(modal).classList.remove('d-none');  
+      }
+      timesClicked += 1;
+    }
+  </script>
 </body>
 <!-- End Body -->
 
